@@ -1,0 +1,4 @@
+interface:
+  display_name: "Placecraft"
+  short_description: "Build and refine editable Blender environments"
+  default_prompt: "Use $placecraft to design an environment from a reference, build editable Blender assets, and refine the exported scene with visual evidence."

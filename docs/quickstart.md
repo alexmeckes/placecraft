@@ -6,6 +6,13 @@ certified; set `BLENDER` to the executable if automatic discovery does not find 
 No provider keys, private source checkout, npm install or network assets are needed
 for the example build or interactive viewer.
 
+Clone the repository first:
+
+```sh
+git clone https://github.com/alexmeckes/placecraft.git
+cd placecraft
+```
+
 Run commands from this repository root. Output paths are explicit so review
 checkpoints stay separate:
 
@@ -24,7 +31,7 @@ checks and the viewer. `--render` adds six fixed-view PNGs. Rebuilding the same
 output folder replaces that checkpoint; choose a new folder to preserve a pass.
 Blender may retain its normal `.blend1` backup.
 
-[Brief and reference observations](../plugins/worldwright-workflow/skills/worldwright/assets/kiln-shelter/brief.md)
+[Brief and reference observations](../plugins/placecraft/skills/placecraft/assets/kiln-shelter/brief.md)
 explain the fixed layout. The seed changes surface variation, not the footprint.
 The supplied reference was generated once through the built-in image tool; the
 build uses authored geometry and does not invoke image-to-3D reconstruction.
@@ -34,7 +41,7 @@ build uses authored geometry and does not invoke image-to-3D reconstruction.
 ```sh
 python3 tools/demo.py build --out out/repeat
 python3 tools/demo.py check --compare out/repeat
-python3 plugins/worldwright-workflow/skills/worldwright/scripts/run.py   plugins/worldwright-workflow/skills/worldwright/scripts/check_contacts.py --   out/kiln-shelter/model.glb   plugins/worldwright-workflow/skills/worldwright/assets/kiln-shelter/contacts.json   --report out/kiln-shelter/export-contacts.json
+python3 plugins/placecraft/skills/placecraft/scripts/run.py   plugins/placecraft/skills/placecraft/scripts/check_contacts.py --   out/kiln-shelter/model.glb   plugins/placecraft/skills/placecraft/assets/kiln-shelter/contacts.json   --report out/kiln-shelter/export-contacts.json
 ```
 
 The GLB comparator is strict: static, uncompressed, embedded-buffer models only;
@@ -71,3 +78,21 @@ To make a different building, start with the brief and a new reference/layout.
 The kiln is a teaching example, not a universal building generator. The public
 starter is simpler than its reference and the historical hero scenes; see the
 [validation record](validation.md) for what the fresh exercise established.
+
+## Install the skill without a plugin
+
+Copy `plugins/placecraft/skills/placecraft` into your project's
+`.agents/skills/placecraft` directory. Keep its scripts, assets and references
+together. In a new task, invoke `$placecraft`.
+
+The plugin ships local scripts, not a hosted Blender service. Image generation
+uses an available image tool; user-supplied references work too. The bundled
+example already includes its reference and needs no image API key.
+
+## Existing Worldwright Workflow installations
+
+The public project is now Placecraft. The original Worldwright development
+project and historical review records keep their names. For an old plugin install,
+remove `worldwright-workflow@worldwright`, add the `alexmeckes/placecraft`
+marketplace, then install `placecraft@placecraft`. Existing source assets and
+outputs do not need rebuilding for this naming change.

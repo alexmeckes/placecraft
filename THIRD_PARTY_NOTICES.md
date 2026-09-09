@@ -3,7 +3,7 @@
 The skill's `scripts/viewer/lib/three.module.js`, `lib/GLTFLoader.js` and
 `utils/BufferGeometryUtils.js` come from Three.js r170, copyright 2010–2024
 Three.js authors, under MIT. Their license is bundled at
-`plugins/worldwright-workflow/skills/worldwright/scripts/viewer/THREE-LICENSE.txt`.
+`plugins/placecraft/skills/placecraft/scripts/viewer/THREE-LICENSE.txt`.
 Upstream: https://github.com/mrdoob/three.js/tree/r170
 
 Worldwright/Terraingen project media is attributed in `docs/media-provenance.json`.

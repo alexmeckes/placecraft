@@ -5,7 +5,7 @@ import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-SKILL = ROOT / 'plugins/worldwright-workflow/skills/worldwright'
+SKILL = ROOT / 'plugins/placecraft/skills/placecraft'
 
 
 def main():

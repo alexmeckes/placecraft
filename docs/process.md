@@ -1,5 +1,8 @@
 # How the process evolved
 
+Placecraft was first published as Worldwright Workflow. Historical project and
+review names below refer to that earlier work.
+
 The starting point was Terraingen's world-generation experiment, inspired by the
 WorldClaw paper discussed in that repository. The original pipeline planned a
 world, generated composition/reference images, reconstructed assets through

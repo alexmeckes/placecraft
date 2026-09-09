@@ -135,7 +135,7 @@
       "sha256": "a8e1b9de721657989995f60b4d8053c7c931610d94c0232f6b8c52e706b3a0a6"
     },
     {
-      "file": "plugins/worldwright-workflow/skills/worldwright/assets/kiln-shelter/reference.png",
+      "file": "plugins/placecraft/skills/placecraft/assets/kiln-shelter/reference.png",
       "origin_project": "Worldwright Workflow",
       "kind": "AI-generated reference; no input images",
       "sha256": "c3f760fd6e01797a22ec68a3c458a399f20ee36663bb42b05d26469708c4d704"

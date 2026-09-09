@@ -1,9 +1,9 @@
 ---
-name: worldwright
+name: placecraft
 description: Design and refine editable Blender environment assets and small scenes from visual references, using architectural planning, fixed-view critique, and actual export checks. Use for reference-led buildings, environment assembly, or visual refinement of these assets.
 ---
 
-# Worldwright
+# Placecraft
 
 Produce editable assets and coherent scenes with a visible record of design
 decisions. Respect the user's art direction, tools, scope and review preferences.

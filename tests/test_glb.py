@@ -7,7 +7,7 @@ import tempfile
 import unittest
 
 ROOT=Path(__file__).resolve().parents[1]
-SCRIPT=ROOT/'plugins/worldwright-workflow/skills/worldwright/scripts/check_glb.py'
+SCRIPT=ROOT/'plugins/placecraft/skills/placecraft/scripts/check_glb.py'
 spec=importlib.util.spec_from_file_location('check_glb',SCRIPT)
 glb=importlib.util.module_from_spec(spec);spec.loader.exec_module(glb)
 

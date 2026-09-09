@@ -5,7 +5,7 @@ import re
 import unittest
 
 ROOT=Path(__file__).resolve().parents[1]
-SKILL=ROOT/'plugins/worldwright-workflow/skills/worldwright'
+SKILL=ROOT/'plugins/placecraft/skills/placecraft'
 
 
 class PackageTests(unittest.TestCase):
@@ -35,6 +35,6 @@ class PackageTests(unittest.TestCase):
             plugin=ROOT/entry['source']['path']
             manifest=json.loads((plugin/'.codex-plugin/plugin.json').read_text())
             self.assertEqual(manifest['name'],plugin.name)
-            self.assertTrue((plugin/manifest['skills']/'worldwright/SKILL.md').is_file())
+            self.assertTrue((plugin/manifest['skills']/'placecraft/SKILL.md').is_file())
 
 if __name__=='__main__':unittest.main()

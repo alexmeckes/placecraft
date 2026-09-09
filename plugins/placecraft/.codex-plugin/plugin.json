@@ -1,0 +1,28 @@
+{
+  "name": "placecraft",
+  "version": "0.1.0+codex.20260909135725",
+  "description": "Build and refine small Blender worlds from visual references.",
+  "author": {
+    "name": "Alex Meckes",
+    "url": "https://github.com/alexmeckes"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Placecraft",
+    "shortDescription": "Build small worlds with Blender and AI",
+    "longDescription": "A workflow for building editable Blender scenes from visual references, with a reusable skill, examples and render-review tools.",
+    "developerName": "Alex Meckes",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use $placecraft to build a small riverside workshop from a reference image."
+  },
+  "homepage": "https://github.com/alexmeckes/placecraft",
+  "repository": "https://github.com/alexmeckes/placecraft",
+  "license": "MIT",
+  "keywords": [
+    "blender",
+    "environments",
+    "3d",
+    "visual-review"
+  ]
+}

@@ -8,7 +8,7 @@ if(!url||!output)throw Error('Usage: node tools/capture.mjs http://127.0.0.1:877
 const parsed=new URL(url);
 if(!['127.0.0.1','localhost','[::1]'].includes(parsed.hostname))throw Error('This helper only opens loopback review pages.');
 const chrome=process.env.CHROME || (process.platform==='darwin'?'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome':'chromium');
-const profile=await mkdtemp(join(tmpdir(),'worldwright-browser-'));
+const profile=await mkdtemp(join(tmpdir(),'placecraft-browser-'));
 const folder=resolve(output);await mkdir(folder,{recursive:true});
 const child=spawn(chrome,['--headless=new','--remote-debugging-port=0',`--user-data-dir=${profile}`,'--no-first-run','--window-size=1280,960','about:blank'],{stdio:'ignore'});
 let startError;child.on('error',e=>startError=e);
@@ -24,11 +24,11 @@ try{
  const send=(method,params={})=>new Promise((resolve,reject)=>{const id=++sequence;const timer=setTimeout(()=>{pending.delete(id);reject(Error(`CDP timeout: ${method}`));},20000);pending.set(id,{resolve,reject,timer});socket.send(JSON.stringify({id,method,params}));});
  await send('Runtime.enable');await send('Page.enable');await send('Page.navigate',{url});
  let ready=false;
- for(let i=0;i<150;i++){const r=await send('Runtime.evaluate',{expression:'window.worldwright?.ready',returnByValue:true});if(r.result.value){ready=true;break;}if(errors.length)break;await sleep(200);}
+ for(let i=0;i<150;i++){const r=await send('Runtime.evaluate',{expression:'window.placecraft?.ready',returnByValue:true});if(r.result.value){ready=true;break;}if(errors.length)break;await sleep(200);}
  if(!ready)throw Error('Viewer failed to load: '+JSON.stringify(errors));
  const views=['overview','front','rear','left','right','roof'];
  for(const view of views){
-  const result=await send('Runtime.evaluate',{expression:`window.worldwright.setView(${JSON.stringify(view)})`,returnByValue:true});
+  const result=await send('Runtime.evaluate',{expression:`window.placecraft.setView(${JSON.stringify(view)})`,returnByValue:true});
   if(result.exceptionDetails)throw Error(JSON.stringify(result.exceptionDetails));
   await sleep(150);
   const png=await send('Page.captureScreenshot',{format:'png'});

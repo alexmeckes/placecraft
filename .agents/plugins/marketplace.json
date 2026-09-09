@@ -1,14 +1,14 @@
 {
-  "name": "worldwright",
+  "name": "placecraft",
   "interface": {
-    "displayName": "Worldwright"
+    "displayName": "Placecraft"
   },
   "plugins": [
     {
-      "name": "worldwright-workflow",
+      "name": "placecraft",
       "source": {
         "source": "local",
-        "path": "./plugins/worldwright-workflow"
+        "path": "./plugins/placecraft"
       },
       "policy": {
         "installation": "AVAILABLE",

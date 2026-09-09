@@ -21,12 +21,12 @@ document.querySelector('#rotate').onclick=e=>{rotating=!rotating;e.target.setAtt
 let last=null;canvas.onpointerdown=e=>{last=[e.clientX,e.clientY];canvas.setPointerCapture(e.pointerId);};canvas.onpointerup=()=>last=null;canvas.onpointercancel=()=>last=null;
 canvas.onpointermove=e=>{if(last){theta-=(e.clientX-last[0])*.007;phi=THREE.MathUtils.clamp(phi+(e.clientY-last[1])*.007,.12,1.7);last=[e.clientX,e.clientY];rotating=false;document.querySelector('#rotate').setAttribute('aria-pressed','false');}};
 canvas.addEventListener('wheel',e=>{e.preventDefault();radius=THREE.MathUtils.clamp(radius*Math.exp(e.deltaY*.001),3,40);},{passive:false});
-window.worldwright={ready:false,setView};
+window.placecraft={ready:false,setView};
 try{
  const gltf=await new GLTFLoader().loadAsync('./model.glb');
  gltf.scene.traverse(o=>{if(o.isMesh){o.castShadow=true;o.receiveShadow=true;}});scene.add(gltf.scene);
  const bounds=new THREE.Box3().setFromObject(gltf.scene);bounds.getCenter(target);
  radius=bounds.getSize(new THREE.Vector3()).length()*1.6;
- window.worldwright.ready=true;document.querySelector('#status').textContent='';setView('overview');
-}catch(e){document.querySelector('#status').textContent='Load failed';document.querySelector('#error').textContent=String(e);window.worldwright.error=String(e);}
+ window.placecraft.ready=true;document.querySelector('#status').textContent='';setView('overview');
+}catch(e){document.querySelector('#status').textContent='Load failed';document.querySelector('#error').textContent=String(e);window.placecraft.error=String(e);}
 let previous=performance.now();renderer.setAnimationLoop(now=>{if(rotating)theta+=(now-previous)*.00018;previous=now;updateCamera();renderer.render(scene,camera);});
