@@ -1,0 +1,71 @@
+{
+  "example": "kiln-shelter",
+  "stage": "finish",
+  "seed": 23,
+  "pass": 2,
+  "generator_sha256": "c8207d9f3d3406a21ee53e101a3671b699578f20c7a7e0f3e6bd30dfb55e473b",
+  "reference": "reference.png",
+  "checks": {
+    "open_firebox_ray": true,
+    "chamber_backstop": true,
+    "work_approach_clear": true,
+    "bench_feet_on_floor": true,
+    "single_owned_shelter_posts": true
+  },
+  "visual_approval": "pending",
+  "limits": [
+    "Authored exterior study; no functional kiln simulation.",
+    "No engine collision, LODs or performance certification.",
+    "Fixed footprint; seed varies surface treatment, not architecture."
+  ],
+  "blender_version": "5.1.1",
+  "source_coordinates": "Z-up, meters",
+  "runtime_coordinates": "glTF Y-up, meters",
+  "engine_ready": false,
+  "export_sha256": "43d98e7df31360707ffc86d82795ce6542408a9973e3e1d55e8101fe95ffd74b",
+  "bounds_z_up": [
+    [
+      -2.9000000953674316,
+      -2.3399999141693115,
+      0.0
+    ],
+    [
+      3.0448997020721436,
+      1.899999976158142,
+      4.363999843597412
+    ]
+  ],
+  "source_objects": 527,
+  "views": {
+    "overview": [
+      7,
+      -11,
+      7
+    ],
+    "front": [
+      0,
+      -12,
+      3
+    ],
+    "rear": [
+      0,
+      12,
+      4
+    ],
+    "left": [
+      -12,
+      0,
+      4
+    ],
+    "right": [
+      12,
+      0,
+      4
+    ],
+    "roof": [
+      3,
+      -5,
+      13
+    ]
+  }
+}

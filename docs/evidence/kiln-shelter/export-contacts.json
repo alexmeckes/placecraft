@@ -1,0 +1,128 @@
+{
+  "passed": true,
+  "rays": [
+    {
+      "name": "clear firebox entry",
+      "passed": true,
+      "hit": false,
+      "location_z_up": null
+    },
+    {
+      "name": "chamber has backstop",
+      "passed": true,
+      "hit": true,
+      "location_z_up": [
+        -1.4299999475479126,
+        1.1700000762939453,
+        0.6499999761581421
+      ]
+    },
+    {
+      "name": "clear work approach",
+      "passed": true,
+      "hit": false,
+      "location_z_up": null
+    },
+    {
+      "name": "bench foot support 0.66-0.52",
+      "passed": true,
+      "hit": true,
+      "location_z_up": [
+        0.6600000262260437,
+        0.5199999809265137,
+        0.31999996304512024
+      ]
+    },
+    {
+      "name": "bench foot support 0.66-1.02",
+      "passed": true,
+      "hit": true,
+      "location_z_up": [
+        0.6600000262260437,
+        1.0199999809265137,
+        0.31999996304512024
+      ]
+    },
+    {
+      "name": "bench foot support 2.27-0.52",
+      "passed": true,
+      "hit": true,
+      "location_z_up": [
+        2.2699999809265137,
+        0.5199999809265137,
+        0.31999996304512024
+      ]
+    },
+    {
+      "name": "bench foot support 2.27-1.02",
+      "passed": true,
+      "hit": true,
+      "location_z_up": [
+        2.2699999809265137,
+        1.0199999809265137,
+        0.31999996304512024
+      ]
+    },
+    {
+      "name": "table support below pot 1",
+      "passed": true,
+      "hit": true,
+      "location_z_up": [
+        1.0,
+        0.75,
+        1.125
+      ]
+    },
+    {
+      "name": "pot base meets table 1",
+      "passed": true,
+      "hit": true,
+      "location_z_up": [
+        1.0,
+        0.75,
+        1.125
+      ]
+    },
+    {
+      "name": "table support below pot 1.62",
+      "passed": true,
+      "hit": true,
+      "location_z_up": [
+        1.6200000047683716,
+        0.75,
+        1.125
+      ]
+    },
+    {
+      "name": "pot base meets table 1.62",
+      "passed": true,
+      "hit": true,
+      "location_z_up": [
+        1.6200000047683716,
+        0.75,
+        1.125
+      ]
+    },
+    {
+      "name": "table support below pot 2.12",
+      "passed": true,
+      "hit": true,
+      "location_z_up": [
+        2.119999885559082,
+        0.75,
+        1.125
+      ]
+    },
+    {
+      "name": "pot base meets table 2.12",
+      "passed": true,
+      "hit": true,
+      "location_z_up": [
+        2.119999885559082,
+        0.75,
+        1.125
+      ]
+    }
+  ],
+  "scope": "Sampled exported mesh relationships, not collision/navigation certification."
+}

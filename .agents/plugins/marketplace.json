@@ -1,0 +1,20 @@
+{
+  "name": "worldwright",
+  "interface": {
+    "displayName": "Worldwright"
+  },
+  "plugins": [
+    {
+      "name": "worldwright-workflow",
+      "source": {
+        "source": "local",
+        "path": "./plugins/worldwright-workflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

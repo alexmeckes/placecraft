@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Worldwright · Asset review</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#20282e;color:#f6eddc;font:15px system-ui}canvas{display:block;width:100%;height:100vh;touch-action:none}header{position:absolute;top:22px;left:24px;pointer-events:none}h1{font-size:21px;margin:0 0 6px}p{opacity:.7;margin:0}nav{position:absolute;bottom:24px;left:24px;right:24px;display:flex;gap:8px;flex-wrap:wrap}button{background:#333e43;color:#fff;border:1px solid #637079;border-radius:7px;padding:10px 14px;cursor:pointer}button[aria-pressed=true]{background:#687768}#status{position:absolute;right:24px;top:24px}#error{color:#ffb6a4;max-width:400px}a{color:#e6d2a5}
+</style>
+<script type="importmap">{"imports":{"three":"./lib/three.module.js"}}</script>
+<canvas id="view" aria-label="Interactive exported 3D asset"></canvas>
+<header><h1>Worldwright · Asset review</h1><p>Drag to orbit · scroll to zoom</p><p id="error"></p></header>
+<div id="status" role="status">Loading model…</div>
+<nav aria-label="Review views"><button data-view="overview">Overview</button><button data-view="front">Front</button><button data-view="rear">Rear</button><button data-view="left">Left</button><button data-view="right">Right</button><button data-view="roof">Roof</button><button id="rotate" aria-pressed="false">Rotate</button><a href="source.blend">Editable source</a></nav>
+<script type="module" src="./main.js"></script></html>

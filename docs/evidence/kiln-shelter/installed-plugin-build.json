@@ -1,0 +1,12 @@
+{
+  "file": "model.glb",
+  "sha256": "43d98e7df31360707ffc86d82795ce6542408a9973e3e1d55e8101fe95ffd74b",
+  "triangles_in_mesh_definitions": 81632,
+  "primitives": 7,
+  "finite_attributes": true,
+  "unit_normals": true,
+  "valid_indices": true,
+  "engine_ready": false,
+  "strict_render_content_identical": true,
+  "comparison": "JSON excluding generator metadata + exact embedded BIN bytes"
+}

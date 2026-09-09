@@ -1,0 +1,172 @@
+{
+  "note": "Curated original project media. Historical source paths are relative provenance, not required dependencies. No source GLBs or reconstruction-provider output is redistributed. AI-generated references carry no exclusive copyright claim.",
+  "media": [
+    {
+      "file": "docs/images/sunwell-final.png",
+      "origin_project": "Worldwright / Terraingen by Alex Meckes",
+      "origin_relative_path": "docs/validation/diorama-bases/sunwell-overview.png",
+      "kind": "Blender/browser capture of authored project geometry",
+      "sha256": "142d93eb5ea1191f3564e4f630f074bfed215a4eaca449818b4b379b074fee77"
+    },
+    {
+      "file": "docs/images/frostpass-final.png",
+      "origin_project": "Worldwright / Terraingen by Alex Meckes",
+      "origin_relative_path": "docs/validation/diorama-bases/frostpass-overview.png",
+      "kind": "Blender/browser capture of authored project geometry",
+      "sha256": "a007162ab4380babb2ac8ac99291f8008002ad834abec0eca65d20e70c878149"
+    },
+    {
+      "file": "docs/images/brookside-final.png",
+      "origin_project": "Worldwright / Terraingen by Alex Meckes",
+      "origin_relative_path": "docs/images/brookside-hamlet.png",
+      "kind": "Blender/browser capture of authored project geometry",
+      "sha256": "2a845c2ac760fb8acc2d148020b6b64d26c640017aea40626f804d7d115b6d80"
+    },
+    {
+      "file": "docs/images/brookside-water-contact.png",
+      "origin_project": "Worldwright / Terraingen by Alex Meckes",
+      "origin_relative_path": "docs/validation/brookside-mill-water/wheel-side.png",
+      "kind": "Blender/browser capture of authored project geometry",
+      "sha256": "d21146b4d815811785ce45323771ff60e24346ef4e1827fa572d2f6211dd3a16"
+    },
+    {
+      "file": "docs/images/sunwell-soft.png",
+      "origin_project": "Worldwright / Terraingen by Alex Meckes",
+      "origin_relative_path": "docs/validation/sunwell/browser-soft-craft.png",
+      "kind": "Blender/browser capture of authored project geometry",
+      "sha256": "bba9d750ece14f565026cbf79e29020240ed30640bfb1734cbe368071b3fef57"
+    },
+    {
+      "file": "docs/images/sunwell-firm.png",
+      "origin_project": "Worldwright / Terraingen by Alex Meckes",
+      "origin_relative_path": "docs/validation/sunwell/browser-after-craft.png",
+      "kind": "Blender/browser capture of authored project geometry",
+      "sha256": "121550a8db26266615f94d6fa86aa9ef0edea631c8a4b78d585b17ad27d4a837"
+    },
+    {
+      "file": "docs/images/sunwell-before-paint.png",
+      "origin_project": "Worldwright / Terraingen by Alex Meckes",
+      "origin_relative_path": "docs/validation/sunwell/browser-before-paint.png",
+      "kind": "Blender/browser capture of authored project geometry",
+      "sha256": "b6e4f8c5aab368694e046e9d1c5c039b0a3aa7c70f6af9954960fda734929b5c"
+    },
+    {
+      "file": "docs/images/sunwell-after-paint.png",
+      "origin_project": "Worldwright / Terraingen by Alex Meckes",
+      "origin_relative_path": "docs/validation/sunwell/browser-after-paint.png",
+      "kind": "Blender/browser capture of authored project geometry",
+      "sha256": "f389fb295e615eaf7def39ea3d4d6a8f333551dd3dd47ef48feec7c1b5ea90af"
+    },
+    {
+      "file": "docs/images/road-before.png",
+      "origin_project": "Worldwright / Terraingen by Alex Meckes",
+      "origin_relative_path": "docs/validation/sunwell-stone-roads/before-square.png",
+      "kind": "Blender/browser capture of authored project geometry",
+      "sha256": "918129208be7db17cee1264a7245a5f96d7311ab0a33ad224a4faa8f158456cb"
+    },
+    {
+      "file": "docs/images/road-after.png",
+      "origin_project": "Worldwright / Terraingen by Alex Meckes",
+      "origin_relative_path": "docs/validation/sunwell-stone-roads/after-square.png",
+      "kind": "Blender/browser capture of authored project geometry",
+      "sha256": "b34ea6079e5843982850fc68f74c4cdba5ca9a505d38ca4c6eec77cbb0e5859d"
+    },
+    {
+      "file": "docs/images/sunwell-reference.png",
+      "origin_project": "Worldwright / Terraingen by Alex Meckes",
+      "origin_relative_path": "assets/building_references/sunwell/reference-v1.png",
+      "kind": "AI-generated design reference",
+      "sha256": "7cebba344e8817a585b57efe1b8cf9e237a40a2b353b290c139165a102eaa7e1"
+    },
+    {
+      "file": "docs/images/frostpass-reference.png",
+      "origin_project": "Worldwright / Terraingen by Alex Meckes",
+      "origin_relative_path": "assets/building_references/frostpass/reference-v1.png",
+      "kind": "AI-generated design reference",
+      "sha256": "4ef334555a8b426e1b133df82fefa88814359e140746c7ee1aea6ad5ef50ba4b"
+    },
+    {
+      "file": "docs/images/barn-reference.png",
+      "origin_project": "Worldwright / Terraingen by Alex Meckes",
+      "origin_relative_path": "assets/building_references/cider_barn.png",
+      "kind": "AI-generated design reference",
+      "sha256": "131e7310bc4c239947ab8d5ab5922f4a92c9b883939a1bcbb452e689c5b3439f"
+    },
+    {
+      "file": "docs/images/leaves-disconnected.png",
+      "origin_project": "Worldwright / Terraingen by Alex Meckes",
+      "origin_relative_path": "docs/images/oak-unattached-canopy.png",
+      "kind": "Blender/browser capture of authored project geometry",
+      "sha256": "26663057b3ce28861b9cd80442f4286a90602d258b095c24b40489e1b62a5d25"
+    },
+    {
+      "file": "docs/images/kiln-first-overview.png",
+      "origin_project": "Worldwright Workflow fresh kiln-shelter exercise",
+      "origin_relative_path": "out/pass-1/browser/overview.png",
+      "kind": "Actual Blender/browser capture of authored geometry",
+      "sha256": "2d1ffca09747f1a8a36617750b154d77744a4b386a10962f2be3d8208ae7ddea"
+    },
+    {
+      "file": "docs/images/kiln-first-rear.png",
+      "origin_project": "Worldwright Workflow fresh kiln-shelter exercise",
+      "origin_relative_path": "out/pass-1/browser/rear.png",
+      "kind": "Actual Blender/browser capture of authored geometry",
+      "sha256": "95e6a0a0c4aaf310b9521338c4bfd1eed4f39693653fd95a9bc8b91c6af84a3e"
+    },
+    {
+      "file": "docs/images/kiln-final-overview.png",
+      "origin_project": "Worldwright Workflow fresh kiln-shelter exercise",
+      "origin_relative_path": "out/kiln-shelter/browser/overview.png",
+      "kind": "Actual Blender/browser capture of authored geometry",
+      "sha256": "dcc6c52f334d44261df56cd8c29435967f05cbffe1ad634c51a5ac9bb664b6cb"
+    },
+    {
+      "file": "docs/images/kiln-final-rear.png",
+      "origin_project": "Worldwright Workflow fresh kiln-shelter exercise",
+      "origin_relative_path": "out/kiln-shelter/browser/rear.png",
+      "kind": "Actual Blender/browser capture of authored geometry",
+      "sha256": "ef75b1aed0f8408f2cadaeae94a48ec8ec42cb542897247ec190362bd3198d82"
+    },
+    {
+      "file": "docs/images/kiln-blender-overview.png",
+      "origin_project": "Worldwright Workflow fresh kiln-shelter exercise",
+      "origin_relative_path": "out/kiln-shelter/overview.png",
+      "kind": "Actual Blender/browser capture of authored geometry",
+      "sha256": "a8e1b9de721657989995f60b4d8053c7c931610d94c0232f6b8c52e706b3a0a6"
+    },
+    {
+      "file": "plugins/worldwright-workflow/skills/worldwright/assets/kiln-shelter/reference.png",
+      "origin_project": "Worldwright Workflow",
+      "kind": "AI-generated reference; no input images",
+      "sha256": "c3f760fd6e01797a22ec68a3c458a399f20ee36663bb42b05d26469708c4d704"
+    },
+    {
+      "file": "docs/evidence/kiln-shelter/front.png",
+      "origin_project": "Worldwright Workflow fresh kiln-shelter exercise",
+      "origin_relative_path": "out/kiln-shelter/browser/front.png",
+      "kind": "Actual browser capture of authored geometry",
+      "sha256": "8d4b2bcdab525e5db9d29795fd2363a15b118d3db37b55c63ab85ef8f48bd699"
+    },
+    {
+      "file": "docs/evidence/kiln-shelter/left.png",
+      "origin_project": "Worldwright Workflow fresh kiln-shelter exercise",
+      "origin_relative_path": "out/kiln-shelter/browser/left.png",
+      "kind": "Actual browser capture of authored geometry",
+      "sha256": "08bc03e08d3b9880f7fb1595681e06a66692e3dc71a6a63dbd8655f745a2060a"
+    },
+    {
+      "file": "docs/evidence/kiln-shelter/right.png",
+      "origin_project": "Worldwright Workflow fresh kiln-shelter exercise",
+      "origin_relative_path": "out/kiln-shelter/browser/right.png",
+      "kind": "Actual browser capture of authored geometry",
+      "sha256": "8957aea4962bd42a080fde8cddc4625ffd546f7866c3ff94d20c3d3985fc9518"
+    },
+    {
+      "file": "docs/evidence/kiln-shelter/roof.png",
+      "origin_project": "Worldwright Workflow fresh kiln-shelter exercise",
+      "origin_relative_path": "out/kiln-shelter/browser/roof.png",
+      "kind": "Actual browser capture of authored geometry",
+      "sha256": "c50dd531a27438c80e48c8a621321ca21c1816c375f3c4a4c32ed965a7af7d7b"
+    }
+  ]
+}

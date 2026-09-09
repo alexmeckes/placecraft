@@ -1,0 +1,12 @@
+{
+  "method": "built-in imagegen",
+  "created": "2026-09-09",
+  "purpose": "Original design reference for fresh packaging exercise",
+  "input_images": [],
+  "image": "reference.png",
+  "prompt": "prompt.txt",
+  "image_sha256": "c3f760fd6e01797a22ec68a3c458a399f20ee36663bb42b05d26469708c4d704",
+  "prompt_sha256": "cd45ab45995eaa1d9efd24bcba8c08e286c0e2dae1c6c36b7d4e83679c4bd393",
+  "geometry_method": "New local Blender Python builder; no image-to-3D reconstruction",
+  "review": "See brief.md for observations and simplifications."
+}

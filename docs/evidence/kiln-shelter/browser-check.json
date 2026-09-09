@@ -1,0 +1,14 @@
+{
+  "views": [
+    "overview",
+    "front",
+    "rear",
+    "left",
+    "right",
+    "roof"
+  ],
+  "loaded": true,
+  "rotation_control": true,
+  "console_errors": [],
+  "visual_judgment": "Screenshots require human/agent inspection; capture alone is not approval."
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-09",
+  "asset": "kiln-shelter",
+  "scope": "Fresh authored tutorial asset exercised through extracted workflow",
+  "export_sha256": "43d98e7df31360707ffc86d82795ce6542408a9973e3e1d55e8101fe95ffd74b",
+  "agent_visual_review": "completed six actual browser views and Blender overview/rear",
+  "user_appearance_approval": "not requested; not claimed",
+  "engine_ready": false,
+  "refinements": [
+    {
+      "defect": "Roof segments appeared as uninterrupted strips and showed overlapping-surface artifacts.",
+      "cause": "Overlapping tiles occupied the same profile without a shingle lap height.",
+      "change": "Introduce a small lap slope, preserve underlay/support, add bounded toe offsets.",
+      "recheck": "Distinct courses in the actual exported roof and overview views."
+    },
+    {
+      "defect": "Black ring around the rear kiln closure.",
+      "cause": "Rear closure shared a plane with the end of the barrel shell.",
+      "change": "Give rear closure its own termination plane with a small outer return.",
+      "recheck": "Rear Blender and browser views show continuous masonry."
+    },
+    {
+      "defect": "Front wall read as radial colored strips.",
+      "cause": "Per-object random tint was applied separately to structural infill strips.",
+      "change": "Use continuous base tint for the bonded infill; keep variation on discrete bricks.",
+      "recheck": "Front facade reads as one continuous body."
+    },
+    {
+      "defect": "Overly uniform bright ceramic and masonry; costly runtime object count.",
+      "change": "Deeper warm/teal palette, bounded variation, reduced bevel segments; batch evaluated copies by material.",
+      "recheck": "7 runtime primitives; 527 editable source objects preserved; 81,632 triangles."
+    }
+  ],
+  "test_correction": "Initial pot support ray began inside the table and falsely failed. Replaced with opposing material-filtered rays crossing the table/foot interface; all 13 actual-export rays passed.",
+  "limitations": [
+    "Simpler, more regular and less painted/sculpted than the generated reference and historical hero assets.",
+    "Fixed footprint; seed varies finish, not architecture.",
+    "No real kiln simulation, LODs, physics, navigation or runtime performance certification.",
+    "Self-tested by the authoring agent; no independent-agent skill benchmark."
+  ]
+}

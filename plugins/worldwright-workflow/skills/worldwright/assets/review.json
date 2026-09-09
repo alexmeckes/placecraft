@@ -1,0 +1,22 @@
+{
+  "asset": "name",
+  "stage": "massing",
+  "source_revision": null,
+  "export_sha256": null,
+  "views": [],
+  "issues": [],
+  "issue_fields": [
+    "view",
+    "observed_defect",
+    "likely_cause",
+    "change",
+    "recheck_result",
+    "severity"
+  ],
+  "agent_visual_review": "pending",
+  "user_appearance_approval": "not_requested",
+  "export_checks": "pending",
+  "independent_rebuild": "pending",
+  "engine_ready": false,
+  "limitations": []
+}
