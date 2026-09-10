@@ -1,6 +1,6 @@
 {
   "name": "placecraft",
-  "version": "0.1.0+codex.20260909135725",
+  "version": "0.1.1",
   "description": "Build and refine small Blender worlds from visual references.",
   "author": {
     "name": "Alex Meckes",

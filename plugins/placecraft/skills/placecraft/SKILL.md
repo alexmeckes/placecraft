@@ -63,8 +63,9 @@ success cannot grant user approval. Save open defects and review scope honestly.
 
 Use [scene.md](references/scene.md) when expanding beyond an asset. Plan activities,
 entrances, circulation, terrain/water and biome transitions before scattering
-props. Establish a small representative road/threshold/junction before extending
-it. Check real mesh contact: wheel/water, bridge/deck, prop/support, door/route.
+props. Reserve working space around full asset envelopes. For stairs and angled
+junctions, use the shared-surface and route checks in that scene guide. Establish
+a small representative road/threshold/junction before extending it. Check real mesh contact: wheel/water, bridge/deck, prop/support, door/route.
 Use [vegetation.md](references/vegetation.md) only when foliage needs work.
 
 Review both an overview and activity areas at intended walking distance. For a

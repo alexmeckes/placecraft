@@ -1,6 +1,6 @@
-# Three environment studies
+# Environment studies
 
-These are the three scenes selected for the gallery. Selection for presentation
+These are the four scenes selected for the [public gallery](https://placecraft.ameckes.chatgpt.site/). Selection for presentation
 is distinct from a universal quality claim or target-engine certification.
 Individual historical review records sometimes remained marked as awaiting
 feedback; we do not rewrite those records to imply every component was approved.
@@ -76,6 +76,46 @@ preserved route contact at the outer edge.
 forms, materials and ecological relationships. Historical agent checks covered
 appearance, contact and regeneration. Complete interiors, measured runtime
 performance and engine physics were still outside that acceptance scope.
+
+## Stormglass — design the space between assets
+
+![Stormglass harbor](images/stormglass-final.png)
+
+[Explore the harbor](https://placecraft.ameckes.chatgpt.site/scenes/stormglass_harbor).
+Building references helped give the inn, boatwright and warehouse distinct
+silhouettes. A separate [layout concept](images/stormglass-layout-reference.png)
+([prompt](references/stormglass-layout-prompt.txt)) tested their composition. The
+build still needed an authored plan for the spaces connecting those buildings.
+
+The rejected stairs were narrow strips. Rebuilding them as short flights with
+level turning landings clarified the climb. The final stone flights have eight
+risers each, with approximately 18–19 cm rise and 42 cm going; these are study
+measurements, not a building-code or universal recipe claim. Continuous masonry
+supports meet the bank, and the pier keeps a separate timber stair.
+
+![Separate working spaces on the lower quay](images/stormglass-quay.png)
+
+The lower buildings moved apart while keeping their geometry intact. Their full
+roof envelopes now have approximately four metres of horizontal clearance. The
+quay grew to support separate boat-hauling and warehouse-loading areas, with
+related props moved out of those approaches.
+
+Repeated visual checks caught problems a centerline route test missed: a paving
+edge covering a tread, a wall projecting into the flight, discontinuous terrain
+near a landing, shallow supports left hanging above a lowered bank, and coplanar
+paving at an angled junction. The resulting checks sample tread and landing
+levels, count surfaces at the troublesome junction, and verify clear approaches.
+
+The user accepted the final appearance ("Looks good"). Five browser views,
+export checks and an independent assembly/environment rebuild support this pass;
+geometry and textures match, with a small documented UV rounding difference.
+[Review and evidence](evidence/stormglass/review.json). This remains an exterior
+scene study without engine collision, navigation or performance certification.
+
+**Transferable lesson:** references anchor design; the plan establishes spatial
+relationships; visual feedback identifies the failed relationship; exported-mesh
+checks help keep the repair from regressing. Preserve accepted assets while
+changing the surrounding environment.
 
 ## What is distributed
 

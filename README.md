@@ -6,9 +6,11 @@ Start with a reference image, build one convincing asset, then grow it into a
 scene. The agent writes Blender code; you guide the result through renders,
 feedback and refinement. Buildings, terrain and props stay editable.
 
-![Brookside hamlet](docs/images/brookside-final.png)
+[Explore the scenes in 3D](https://placecraft.ameckes.chatgpt.site/)
 
-This repo shares the process behind **Brookside**, **Sunwell** and **Frostpass**:
+![Stormglass harbor](docs/images/stormglass-final.png)
+
+This repo shares the process behind **Stormglass**, **Brookside**, **Sunwell** and **Frostpass**:
 what worked, what looked wrong, and how we fixed it. It includes a Codex skill,
 Blender helpers and a runnable kiln-shelter example. The larger scenes are
 [illustrated case studies](docs/case-studies.md).

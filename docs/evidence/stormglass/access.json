@@ -1,0 +1,128 @@
+{
+  "valid": true,
+  "checks": [
+    {
+      "flight": "Beacon flight 1",
+      "risers": 8,
+      "riser": 0.1812499761581421,
+      "going": 0.42000000000000004,
+      "width_checked": 2.2,
+      "all_tread_samples": "level and clear"
+    },
+    {
+      "flight": "Beacon flight 2",
+      "risers": 8,
+      "riser": 0.1812499761581421,
+      "going": 0.42000000000000004,
+      "width_checked": 2.2,
+      "all_tread_samples": "level and clear"
+    },
+    {
+      "flight": "Beacon flight 3",
+      "risers": 8,
+      "riser": 0.18125003576278687,
+      "going": 0.42000000000000004,
+      "width_checked": 2.2,
+      "all_tread_samples": "level and clear"
+    },
+    {
+      "flight": "Beacon flight 4",
+      "risers": 8,
+      "riser": 0.1812499761581421,
+      "going": 0.42000000000000004,
+      "width_checked": 2.2,
+      "all_tread_samples": "level and clear"
+    },
+    {
+      "flight": "Quay flight 1",
+      "risers": 8,
+      "riser": 0.1875,
+      "going": 0.42000000000000004,
+      "width_checked": 2.2,
+      "all_tread_samples": "level and clear"
+    },
+    {
+      "flight": "Quay flight 2",
+      "risers": 8,
+      "riser": 0.1875,
+      "going": 0.41999999999999993,
+      "width_checked": 2.2,
+      "all_tread_samples": "level and clear"
+    },
+    {
+      "flight": "Pier stair",
+      "risers": 9,
+      "riser": 0.18222223387824166,
+      "going": 0.3888888888888889,
+      "width_checked": 2.2,
+      "all_tread_samples": "level and clear"
+    },
+    {
+      "landing": [
+        -5.14,
+        4.6,
+        10.665
+      ],
+      "level": true
+    },
+    {
+      "landing": [
+        -5.14,
+        -1.76,
+        9.215
+      ],
+      "level": true
+    },
+    {
+      "landing": [
+        1.22,
+        -1.76,
+        7.765
+      ],
+      "level": true
+    },
+    {
+      "landing": [
+        1.22,
+        4.6,
+        6.315
+      ],
+      "level": true
+    },
+    {
+      "landing": [
+        8,
+        -2.86,
+        4.815
+      ],
+      "level": true
+    },
+    {
+      "landing": [
+        8,
+        -9.22,
+        3.315
+      ],
+      "level": true
+    },
+    {
+      "inn_connector_paving_has_single_owner": true
+    },
+    {
+      "clear_gap_between_roof_envelopes_m": 4.046516418457031
+    },
+    {
+      "warehouse_approach_clear": true
+    },
+    {
+      "boat_bay_and_hauling_apron_clear": true
+    },
+    {
+      "open_water_level": 0.015
+    },
+    {
+      "pier_deck_level": 1.675
+    }
+  ],
+  "scope": "Actual exported geometry; not engine navigation or physics"
+}

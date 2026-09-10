@@ -1,0 +1,84 @@
+{
+  "request": "Improve the stairs and spread the lower buildings apart",
+  "status": {
+    "agent_visual_review": "reviewed in Blender overview and actual browser overview, stairs, close-up, quay and rear",
+    "user_appearance_approval": "Accepted by user: Looks good",
+    "export": "passed",
+    "rebuild": "passed with documented UV rounding tolerance",
+    "engine_ready": false
+  },
+  "artifacts": {
+    "blend_sha256": "92ac547bfb68673e3e1ba09360bcb35b8bd0f806f6ada33ac30904ff914f0788",
+    "glb_sha256": "6a19f9b5ac23edf54b3e8a473be256002b0db40dd8826bf56882a5f851c1a1af",
+    "source_generator": "fd706cbaad5aa147f22fc946f35bc621bbf9c7814288155d92a79ff6ed70a65e",
+    "environment_generator": "48a3f22d43a4cb7370a445577054878bf7059a8448936e106a7cba917e5f9fde",
+    "circulation_generator": "f92723b5745ac47ffbebd519c207fef78f34bb4e21552bdd09a3144064e24603",
+    "reviewed_inn_sha256": "b1ae56356cd3d429d3b91893d74d7eb5e000dbadd013dec82cba39c081cc1f29",
+    "images": {
+      "docs/images/stormglass-final.png": "75390bc3bdbd0010ed7515a3da90e0d830d6d6e9be6fafd14677b0d509268bcb",
+      "docs/images/stormglass-stairs-before.png": "e52d3f92f125e0c5b89605dc3cbf04af0cf3da2aeda1f3ea3f9b9ea519cd5c42",
+      "docs/images/stormglass-stairs-after.png": "bf8a4657d858daba397b5ead266d0a197f098797453c8eb06affe34e28a5073f",
+      "docs/images/stormglass-quay.png": "fe7f6a53d39ac89f939894cd9ecf630be42dcaaabd238b08535ee9949daa3143",
+      "docs/images/stormglass-layout-reference.png": "5b9be8188dcc03238e11741803dde2756a998085a32627e56356766e30897920"
+    }
+  },
+  "changes": [
+    "Four short lighthouse stair flights with turning landings; two quay flights with a broad level rest landing",
+    "3 m stone tread width, consistent risers and going, continuous masonry support into the bank, level stone coping",
+    "Boatwright translated west; warehouse east and north; expanded quay and related props repositioned",
+    "4.046516 m horizontal gap between complete roof envelopes and separate clear working aprons",
+    "Exact polygon clipping for paving and wall passages; continuous terrain lowering; no overlapping connector paving"
+  ],
+  "loop": [
+    {
+      "defect": "Paving edge covered the first stair tread; wall edge covered the quay flight",
+      "cause": "Excluding stones by their center left intersecting polygon edges",
+      "fix": "Clip paving, coping and wall polygons against authored route footprints",
+      "evidence": [
+        "access.json",
+        "../../images/stormglass-stairs-after.png"
+      ]
+    },
+    {
+      "defect": "Tall green curtains at landings",
+      "cause": "Hard route influence limits and raising terrain to separate landing datums",
+      "fix": "Continuous lowering envelopes and masonry supports seated into the bank",
+      "evidence": "Intermediate failure recorded in the development project; final result shown in ../../images/stormglass-stairs-after.png"
+    },
+    {
+      "defect": "Floating-looking landing edges after lowering terrain",
+      "cause": "Fixed shallow support thickness",
+      "fix": "Extend stepped cores and landing foundations down to bank; add restrained masonry courses",
+      "evidence": "../../images/stormglass-stairs-after.png"
+    },
+    {
+      "defect": "Dark triangular patches on inn court",
+      "cause": "Coplanar connector, courtyard and landing paving",
+      "fix": "Clip courtyard paving around connectors, then clip connector paving around flight and landing footprints; each contact has one owner",
+      "evidence": [
+        "access.json",
+        "../../images/stormglass-final.png"
+      ]
+    }
+  ],
+  "checks": {
+    "access": "access.json",
+    "building_preservation": "buildings.json",
+    "glb_structure": "export.json",
+    "rebuild": "rebuild.json"
+  },
+  "rebuild_procedure": "Independent full generator assembly, followed by final environment generation from each separate pre-environment assembly. Each final GLB is compared.",
+  "rebuild_limit": "Positions, oriented triangles and texture bytes match; maximum UV delta 3.814697265625e-06 within 8e-06 tolerance. No binary identity claim. No target-engine navigation, collision or performance certification.",
+  "browser_review": {
+    "views": [
+      "overview",
+      "stairs",
+      "stair close-up",
+      "quay",
+      "rear"
+    ],
+    "all_loaded": true,
+    "console_errors": 0,
+    "broken_shader_programs": 0
+  }
+}

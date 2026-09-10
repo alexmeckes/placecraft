@@ -167,6 +167,48 @@
       "origin_relative_path": "out/kiln-shelter/browser/roof.png",
       "kind": "Actual browser capture of authored geometry",
       "sha256": "c50dd531a27438c80e48c8a621321ca21c1816c375f3c4a4c32ed965a7af7d7b"
+    },
+    {
+      "file": "docs/images/stormglass-final.png",
+      "origin_project": "Placecraft / Worldwright by Alex Meckes",
+      "origin_relative_path": "out/stormglass_harbor/overview.png",
+      "kind": "Actual Blender/browser capture of authored geometry",
+      "sha256": "75390bc3bdbd0010ed7515a3da90e0d830d6d6e9be6fafd14677b0d509268bcb"
+    },
+    {
+      "file": "docs/images/stormglass-stairs-before.png",
+      "origin_project": "Placecraft / Worldwright by Alex Meckes",
+      "origin_relative_path": "out/stormglass_harbor/history/before-circulation/browser-stairs.png",
+      "kind": "Actual Blender/browser capture of authored geometry",
+      "sha256": "e52d3f92f125e0c5b89605dc3cbf04af0cf3da2aeda1f3ea3f9b9ea519cd5c42"
+    },
+    {
+      "file": "docs/images/stormglass-stairs-after.png",
+      "origin_project": "Placecraft / Worldwright by Alex Meckes",
+      "origin_relative_path": "out/stormglass_harbor/browser-stairs.png",
+      "kind": "Actual Blender/browser capture of authored geometry",
+      "sha256": "bf8a4657d858daba397b5ead266d0a197f098797453c8eb06affe34e28a5073f"
+    },
+    {
+      "file": "docs/images/stormglass-quay.png",
+      "origin_project": "Placecraft / Worldwright by Alex Meckes",
+      "origin_relative_path": "out/stormglass_harbor/browser-quay.png",
+      "kind": "Actual Blender/browser capture of authored geometry",
+      "sha256": "fe7f6a53d39ac89f939894cd9ecf630be42dcaaabd238b08535ee9949daa3143"
+    },
+    {
+      "file": "docs/images/stormglass-layout-reference.png",
+      "origin_project": "Placecraft / Worldwright by Alex Meckes",
+      "origin_relative_path": "assets/building_references/stormglass/refinement/layout-reference-v1.png",
+      "kind": "AI-generated layout concept",
+      "sha256": "5b9be8188dcc03238e11741803dde2756a998085a32627e56356766e30897920"
+    },
+    {
+      "file": "docs/references/stormglass-layout-prompt.txt",
+      "origin_project": "Placecraft / Worldwright by Alex Meckes",
+      "origin_relative_path": "assets/building_references/stormglass/refinement/layout-prompt-v1.txt",
+      "kind": "Exact generated-layout prompt",
+      "sha256": "092d286f354b57c5512e5225f8e59e6efc903edd6de7481c1e2e8b1a54cd09e2"
     }
   ]
 }

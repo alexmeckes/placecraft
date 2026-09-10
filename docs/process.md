@@ -46,8 +46,10 @@ flowchart LR
    views in Blender and the browser. Name the defect, cause, change and result.
    Diagnose repeated rejection at the design, representation or export layer.
 6. **Scene assembly.** Plan activities, circulation, terrain/water interfaces and
-   biome transitions. Prototype difficult road/shoreline interfaces before spreading
-   them across the scene. Add dressing where the activity gives it a purpose.
+   biome transitions. Reserve working space around roofs and entrances. Let a
+   shared route plan define stairs, landings, terrain bedding and surface cuts.
+   Prototype difficult road/shoreline interfaces before spreading them across the
+   scene. Add dressing where the activity gives it a purpose.
 7. **Evidence and acceptance.** Compare a clean regeneration, check actual mesh
    contacts, retain screenshots and state the limits of each result. Keep user
    appearance selection separate from agent review and engine integration.

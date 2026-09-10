@@ -1,0 +1,22 @@
+{
+  "preserved": true,
+  "meshes_by_role": {
+    "lighthouse": 12,
+    "reference_inn": 12,
+    "boatwright": 218,
+    "warehouse": 152
+  },
+  "authorized_translations": {
+    "boatwright": [
+      -5.2,
+      0,
+      0
+    ],
+    "warehouse": [
+      7.2,
+      2.8,
+      0
+    ]
+  },
+  "scope": "Exact source vertices and polygon connectivity; world transforms unchanged except documented translations. Props and environment excluded."
+}

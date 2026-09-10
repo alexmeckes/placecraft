@@ -55,6 +55,27 @@ falloff, normals and shadows interact.
 leaf clusters at the target distance, and optimize the expensive component.
 The oak remains a provisional study; this package makes no production-tree claim.
 
+## Good buildings still need a designed environment
+
+| Earlier stairs and crowded quay | Refined circulation |
+| --- | --- |
+| ![Earlier harbor stairs](images/stormglass-stairs-before.png) | ![Short flights and level landings](images/stormglass-stairs-after.png) |
+
+Stormglass's buildings improved through individual references, but the surrounding
+space remained weak. Short stair flights, broad turning landings and a working
+quay made the relationships legible. Moving the workshop and warehouse apart by
+their full roof envelopes created separate hauling and loading areas.
+
+The fixes exposed other defects: paving edges intruded on steps, terrain formed
+vertical green ridges, and an angled path overlapped its landing. These required
+polygon clipping, continuous grading and a single owner for each surface.
+
+**Carry forward:** design circulation and working space before dressing. Use the
+same route plan for geometry and exclusions. Inspect each fix in the actual
+viewer, then turn its concrete failure into a check. More detail or another
+reference cannot supply missing spatial relationships. See the
+[Stormglass study](case-studies.md#stormglass--design-the-space-between-assets).
+
 ## Other durable lessons
 
 - A fresh building type needs its own plan. Shared materials do not establish
